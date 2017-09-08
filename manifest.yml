@@ -1,5 +1,7 @@
-applications:
-	- name: springmvc-helloworld
-	  path: target/springmvc-helloworld.war
-	  buildpack: https://github.com/cloudfoundry/java-buildpack.git
-	  memory: 1G
+--- 
+applications: 
+  - 
+    buildpack: "https://github.com/cloudfoundry/java-buildpack.git"
+    memory: 1G
+    name: springmvc-helloworld
+    path: target/springmvc-helloworld.war
